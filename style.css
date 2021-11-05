@@ -1,0 +1,26 @@
+.flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+h1
+{
+    text-align: center;
+}
+ul.nav
+{
+    background-color:darkblue ;
+    justify-content:space-around;
+    color : black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.carousel-inner
+{
+    height: 400px;
+}
+.card
+{
+    margin-top: 10rem;
+}
