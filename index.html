@@ -62,7 +62,7 @@
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
               Error beatae cumque vero, temporibus asperiores iure provident. 
               Dolorem ad laborum itaque fugiat! Repudiandae modi repellendus, culpa alias possimus ea facere tenetur!</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#clair_de_lune" >Go somewhere</a>
         </div>
       </div>
 
@@ -74,30 +74,41 @@
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
               Error beatae cumque vero, temporibus asperiores iure provident. 
               Dolorem ad laborum itaque fugiat! Repudiandae modi repellendus, culpa alias possimus ea facere tenetur!</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Go somewhere</a>
         </div>
       </div>
     <div>
 
-    <div class="card" style="width: 18rem;">
-      <ul class="list-group list-group-flush">
-        
-        <li class="list-group-item">Général</li>
-        <li class="list-group-item">Horizon Zero Dawn</li>
-        <li class="list-group-item">Formula 1</li>
-        <li class="list-group-item">Uncharted</li>
-      </ul>
-      <form action="#" method="get"></form>
-      <input type="search" placeholder="search">
-      <input type="submit" value="Rechercher" />
-    </div>
-
-
 
   <footer>
-    
-
+    <img class="footer" id="moda" src="asset/clair_de_lune.jpg" alt="clair_de_lune">
+    <img class="footer"  src="asset/grand_canyon.jpg"  alt="grand_canyon">
+    <img class="footer"  src="asset/plaine_enneigé.jpg" alt="plaine_enneigé">
+    <img class="footer"  src="asset/lac_enneigé.jpg" alt="lac_enneigé">
   </footer>
+
+  <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Plaine enneigé</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="asset/plaine_enneigé.jpg" id="plaine_enneigé" class="card-img-top" alt="plaine enneigé">
+        <p class="card-text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          Error beatae cumque vero, temporibus asperiores iure provident. 
+          Dolorem ad laborum itaque fugiat! Repudiandae modi repellendus, culpa alias possimus ea facere tenetur!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
     <script src="jquery.min.js"></script>  
     <!-- Option 1: Bootstrap Bundle with Popper -->
