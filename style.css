@@ -20,8 +20,21 @@ ul.nav
 }
 .footer
 {
+    margin-top: 5%;
     margin-left: 5px;
     margin-right: 5px;
     height: 205px;
     width: 24%;
+}
+#colomun
+{
+    column-count: 3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+#search
+{
+    margin-top: 5%;
 }
