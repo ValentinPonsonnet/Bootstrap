@@ -4,8 +4,11 @@
     <!-- Required meta tags -->
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link src=http://www.jsdelivr.com/projects/lightgallery.js >
     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/lightgallery.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
     <link rel="stylesheet" href="style.css" />
 
     <!-- Bootstrap CSS -->
@@ -42,6 +45,9 @@
           <div class="carousel-item">
             <img src="asset/grand_canyon.jpg" class="d-block w-100" alt="Grand Canyonne">
           </div>
+          <div class="carousel-item">
+            <img src="asset/Ville_sous_la_neige.jpg" class="d-block w-100" alt="Laponie">
+          </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -55,7 +61,7 @@
 
       <div class="container">
         <div class="row">
-          <div class="col-sm">
+          <div class="col-sm-4">
             <div class="card" style="width: 18rem; margin-top: 50px;">
               <img src="asset/plaine_enneigé.jpg" id="plaine_enneigé" class="card-img-top" alt="plaine enneigé">
               <div class="card-body">
@@ -87,28 +93,34 @@
                 <li class="list-group-item">Horizon Zero Dawn</li>
                 <li class="list-group-item">Watch_Dogs</li>
                 <li class="list-group-item">F1 2021</li>
-               <li class="list-group-item">Tomb Raider</li>
+                <li class="list-group-item">Tomb Raider</li>
                 <li class="list-group-item">League of Legend</li>
                 <li class="list-group-item">Need for speed</li>
                 <li class="list-group-item">Metal Gear</li>
+                <li class="list-group-item">She Will Punish Them</li>
               </ul>
             </div>
             <div class="card" style="width: auto; height: auto;">
               <div class="card-body">
-                <div id="search">
-                  <form method="get" action="#">
-                    <input type="text" placeholder="search" >
-                    <input type="submit" value="Recherche">
-                  </form>
-                </div>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Rechercher un article">
+                  <div class="input-group-append">
+                    <button class="btn btn-secondary" type="button">
+                      <i class="fa fa-search"></i>
+                    </button>
+                  </div>
+              </div>
               </div>
             </div>
       </div>
+
   <footer>
-      <img class="footer" src="asset/clair_de_lune.jpg" alt="clair_de_lune">
-      <img class="footer" src="asset/grand_canyon.jpg"  alt="grand_canyon">
-      <img class="footer" src="asset/plaine_enneigé.jpg" alt="plaine_enneigé">
-      <img class="footer" src="asset/lac_enneigé.jpg" alt="lac_enneigé">
+
+    <img class="footer" src="asset/clair_de_lune.jpg" alt="clair_de_lune">
+	  <img class="footer" src="asset/grand_canyon.jpg"  alt="grand_canyon">
+	  <img class="footer" src="asset/plaine_enneigé.jpg" alt="plaine_enneigé">
+	  <img class="footer" src="asset/lac_enneigé.jpg" alt="lac_enneigé">
+
   </footer>
 
   <!-- Modal -->
@@ -132,18 +144,6 @@
       </div>
     </div>
   </div>
-
-    <script>
-
-
-
-
-
-
-    </script>
-
-
-
 
     <script src="jquery.min.js"></script>  
     <!-- Option 1: Bootstrap Bundle with Popper -->
